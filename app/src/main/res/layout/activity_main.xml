@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0000ff"
+    tools:context="com.example.user.simplecalculator.activities.MainActivity"
+    android:orientation="vertical">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+
+       android:textSize="20dp"
+       android:textStyle="bold"
+       android:gravity="center"
+       android:text="Welcome to Calcutaor using MVP\n Developer: RK Jony"
+       android:id="@+id/text1"
+       android:layout_marginBottom="15dp"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a number1"
+        android:inputType="number"
+        android:id="@+id/edit_text1"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a number2"
+        android:id="@+id/edit_text2"
+        android:inputType="number"
+
+        />
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:id="@+id/LinearLayout1"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/AddButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="+"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+
+            />
+
+        <Button
+            android:id="@+id/MulButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="*"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+
+            />
+        <Button
+            android:id="@+id/DivButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="/"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            />
+        <Button
+            android:id="@+id/SubButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="-"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextView1"
+
+        />
+</LinearLayout>
+
+
